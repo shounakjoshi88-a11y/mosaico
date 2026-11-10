@@ -47,8 +47,8 @@ services:
   mosaico-store-testing:
     image: ghcr.io/versity/versitygw:latest
     ports:
-      - "127.0.0.1:7080:7070"  # S3 API
-      - "127.0.0.1:7081:7071"  # Admin API  
+      - "127.0.0.1:7080:7080"  # S3 API
+      - "127.0.0.1:7081:7081"  # Admin API  
     environment:
       ROOT_ACCESS_KEY: admin
       ROOT_SECRET_KEY: password
