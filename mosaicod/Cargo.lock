@@ -2767,6 +2767,7 @@ name = "mosaicod-hook"
 version = "0.8.0-dev"
 dependencies = [
  "bytes",
+ "mosaicod-config",
  "mosaicod-core",
  "mosaicod-db",
  "mosaicod-marshal",
