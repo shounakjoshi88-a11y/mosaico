@@ -2702,7 +2702,6 @@ dependencies = [
  "mosaicod-store",
  "sqlx",
  "tokio",
- "tokio-util",
  "tonic",
  "tower",
  "tracing",
